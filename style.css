@@ -1,0 +1,154 @@
+ /* CSS Reset*/
+ body{
+    font-family: 'Baloo Bhai',cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: 1480px; 
+    width: 100%; 
+    height: 100%;
+    background-attachment: fixed;
+    
+       
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    /*border: 2px solid red;*/
+}
+.left img{
+    width: 132px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    line-height: 19px;
+    font-size: 26px;
+    color:slateblue;
+}
+.mid{
+    display:block;
+    width:36%;
+    margin: 29px auto;
+    font-weight: 800;
+    /*border: 2px solid green;*/
+    
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 36px;
+    font-size: 2px;
+    display: inline-block;
+    /*border: 2px solid yellow;*/
+    
+}
+.navbar{
+    display: inline-block;
+    font-size: 19px;
+}
+.navbar li{
+    color: white;
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    font-family: 'Baloo Bhai',cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 2px 10px;
+    border: 2px solid grey;
+    border-radius: 11px;
+    font-size: 20px;
+    cursor: pointer;
+     
+}
+.btn:hover{
+    background-color:rgb(63, 54, 54);
+}
+.container{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: italic ;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 106%;
+    margin: 20px auto;
+    padding: 2px 4px;   
+}
+.shadow{
+    background-color: black;
+    padding: 1px 3px;
+   
+}
+
+.container2{
+    font-size: 27px;
+    font-weight: 500;
+    
+    padding: 15px 50px;
+    letter-spacing: 2px;
+    font-family: 'poppins';
+    
+    color: rgb(244, 239, 239); 
+    margin: 106px 80px;
+    padding: 30px;
+    width: 70%;
+}
+.Help {
+    font-size: 27px;
+    padding: 30px 50px 30px;
+    letter-spacing: 4px;
+    font-family: 'poppins';
+    color: white;
+    top: 10px;
+    margin: 100px 65px;
+    width: 70%;
+}
+.Contact{
+    font-size: 27px;
+    padding: 30px 50px;
+    letter-spacing: 2px;
+    font-family: 'poppins';
+    color: white;
+    margin: 107px 65px;
+    width: 70%;
+}
+.Contact p{
+    font-size: 26px;
+    font-weight: 400;
+    padding: 2px;
+}
+
+
